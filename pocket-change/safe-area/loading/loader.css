@@ -1,0 +1,169 @@
+.loading {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#loading-container {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.loading-bar {
+  width: 300px;
+  height: 4px;
+  background-color: #0985EA;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 24px 0;
+}
+
+.loading-bar .bar {
+  width: 62px;
+  height: 100%;  
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: -62px;
+  background: linear-gradient(90deg, #ffffff00 0%, #ffffff80 33.85%, #ffffff80 64.06%, #ffffff00 100%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-animation: scroll 1.3s ease-in-out infinite;
+  -moz-animation: scroll 1.3s ease-in-out infinite;
+  -o-animation: scroll 1.3s ease-in-out infinite;
+  animation: scroll 1.3s ease-in-out infinite;
+}
+
+.loading img#pokepay {
+  -webkit-animation: zoomFade 0.3s;
+  -moz-animation: zoomFade 0.3s;
+  -o-animation: zoomFade 0.3s;
+  animation: zoomFade 0.3s;
+}
+
+.loading #message {
+  font-size: 16px;
+  color: #767676;
+  font-weight: 400;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 23.68px;
+}
+
+@-webkit-keyframes scroll {
+  70% {
+    left: -62px;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@-moz-keyframes scroll {
+  70% {
+    left: -62px;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@-o-keyframes scroll {
+  70% {
+    left: -62px;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes scroll {
+  70% {
+    left: -62px;
+  }
+
+  100% {
+    left: 100%;
+  }
+}
+
+@-webkit-keyframes zoomFade {
+  0% {
+    -webkit-transform: scale(0.5, 0.5);
+    opacity: 0.5;
+  }
+
+  90% {
+    -webkit-transform: scale(1.02, 1.02);
+  }
+
+  100% {
+    -webkit-transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes zoomFade {
+  0% {
+    -moz-transform: scale(0.5, 0.5);
+    opacity: 0.5;
+  }
+
+  90% {
+    -moz-transform: scale(1.02, 1.02);
+  }
+
+  100% {
+    -moz-transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+@-o-keyframes zoomFade {
+  0% {
+    -o-transform: scale(0.5, 0.5);
+    opacity: 0.5;
+  }
+
+  90% {
+    -o-transform: scale(1.02, 1.02);
+  }
+
+  100% {
+    -o-transform: scale(1, 1);
+    opacity: 1;
+  }
+}
+
+@keyframes zoomFade {
+  0% {
+    transform: scale(0.5, 0.5);
+    opacity: 0.5;
+  }
+
+  90% {
+    transform: scale(1.02, 1.02);
+  }
+
+  100% {
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+}

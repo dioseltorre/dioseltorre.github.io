@@ -1,0 +1,58 @@
+{
+  "name": "EasyPay",
+  "short_name": "EasyPay",
+  "money_unit": "Php",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#FFFFFF",
+  "description": "money app description",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": null
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": null
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "card": {
+    "showWatermark": true,
+    "border": {
+      "width": 1.0,
+      "background": {
+        "__typename": "MoneyCardBackgroundFill",
+        "color": 4294907027
+      }
+    },
+    "symbol": {
+      "__typename": "MoneyCardSymbolImage",
+      "imageUrl": "https://i.picsum.photos/id/237/295/184.jpg?hmac=cdInn3mee4PLbk9dbWFB2iGIhY39Ji0mZhAS_0U6_94",
+      "scale": 0.9,
+      "alignment": "CENTER"
+    },
+    "background": {
+      "__typename": "MoneyCardBackgroundFill",
+      "color": 4278190080
+    }
+  }
+}

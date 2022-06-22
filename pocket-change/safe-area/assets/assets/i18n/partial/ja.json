@@ -1,0 +1,130 @@
+{
+  "pages": {
+    "continue": "続ける",
+    "done": "完了",
+    "start": "はじめる",
+    "welcome": "ようこそ",
+    "skip": "スキップ",
+    "next": "次へ",
+    "onboarding": {
+      "welcome": "ようこそ\n{money_name}",
+      "welcome_description": "これはバーガーShopの{money_name}です。\nさぁはじめよう！",
+      "onboarding_2": "支払いは簡単。\nQRコードをスキャンするだけ。",
+      "onboarding_3": "クレジットカード、\n現金などでチャージできます。",
+      "onboarding_4": "Yお気に入りショップの\n情報が受け取れる"
+    },
+    "auth": {
+      "header_title": "メールアドレスを入力",
+      "header_description": "メールアドレスを入力してください。",
+      "email_address": "メールアドレス",
+      "terms_policy": "{terms_conditions}と{privacy_policy}ーに同意して",
+      "terms_conditions": "利用規約",
+      "privacy_policy": "プライバシーポリシ"
+    },
+    "input_code": {
+      "header_title": "コードを入力",
+      "header_description": "{email}にメールで確認コードを送信しました。認証コードを入力してください。",
+      "resend_code": "コードを再送する"
+    },
+    "registration": {
+      "header_title": "メンバー名を新規登録",
+      "header_description": "ポケペイで使用するメンバー名を教えてください。",
+      "name_hint": "田中　香里"
+    },
+    "registration_complete": {
+      "header_title": "登録完了",
+      "header_description": "{name}さん、ようこそ！",
+      "start_pokepay": "ポケペイを始める"
+    },
+    "not_found": {
+      "header_title": "ページが見つかりません",
+      "header_description": "お探しのページはご利用いただけません。"
+    },
+    "main": {
+      "cancel": "キャンセル",
+      "earned_point": "{point}ポイント獲得",
+      "edit": "編集",
+      "points": "ポイント",
+      "money": "マネー",
+      "qr_code": "QRコード",
+      "scan": "読み取る",
+      "balance_amount": "残高 {amount}",
+      "pay": "支払い",
+      "available_balance": "利用可能残高",
+      "consume_point_on_payment": "ポイントを利用",
+      "topup_message": "クレジットカードまたは現金では、マネーのみチャージできます。",
+      "register": "登録する",
+      "home": {
+        "menu_title": "ホーム",
+        "check_expiration_date": "{expiration_date}を確認する",
+        "breakdown": "内訳",
+        "pay_with_this_code": "このコードで支払う"
+      },
+      "transaction_history": {
+        "menu_title": "取引履歴",
+        "header_description": "チャージ・支払いの一覧です。",
+        "transaction_id": "取引ID: {id}",
+        "receiver_name": "受け取りメンバー：{name}",
+        "sender_name": "送信メンバー：{name}",
+        "shop_name": "ショップ：{name}",
+        "cancelled_msg": "この取引はすでに取り消されています。 "
+      },
+      "expiration_list": {
+        "menu_title": "有効期限",
+        "header_description": "ポイント・マネーの有効期限",
+        "available": "利用可能",
+        "expired": "失効済み",
+        "expires_in": "{date}に失効",
+        "expiration_date": "{date}に失効",
+        "expired_on": "{date}に失効",
+        "date_format": "yyyy/MM/dd"
+      },
+      "menu": {
+        "menu_title": "メニュー",
+        "sign_out": "ログアウト"
+      },
+      "payment": {
+        "payment": "支払い",
+        "use_points": "ポイントを使用",
+        "continue_payment": "支払いを続ける",
+        "pay_with": "{name}で支払い",
+        "invalid_qr_msg_title": "決済用QRコードではありません",
+        "invalid_qr_msg_text": "決済用のQRコードであることをご確認ください"
+      },
+      "transaction_complete": {
+        "charge_complete": "{name}にチャージ完了",
+        "payment_complete": "{shop}に支払い完了",
+        "used_point": "{point}使用",
+        "show_detail": "詳細を見る",
+        "transaction_id": "取引ID：{id}",
+        "transaction_date": "y年M月d日 (E) H:mm"
+      },
+      "my_page": {
+        "menu_title": "マイページ"
+      },
+      "charge": {
+        "add_card": "カードを追加",
+        "card_identification": "カードの本人確認",
+        "card_name": "カードの名称",
+        "card_number": "カード番号",
+        "charge": "チャージ",
+        "charge_in": "{name}にチャージ",
+        "cc_info_text": "お客様のカード情報保護の観点から、クレジットカード会社による「本人認証サービス（3Dセキュア）」の設定をお願いしています。\n\n設定方法についてはクレジットカード会社にお問い合わせください。",
+        "change_card": "使用するカード",
+        "current": "現在",
+        "delete_card": "カード情報を削除",
+        "desired": "チャージ後",
+        "expiration_date": "有効期限",
+        "input_the_amount": "金額を入力",
+        "indication_message": "特定商取引法に基づく表示",
+        "pc_responsibility_message": "※クレジットカード払いでの本マネーのチャージ（ご購入）に関しては、株式会社ポケットチェンジが販売責任者となります。クレジットカードのご利用明細では、「電子マネーチャージ（ポケットチェンジ）と表示されます。」",
+        "register_card": "カード登録",
+        "register_id_auth_message": "本アプリでのご利用前に本人認証サービス（3Dセキュア）へのご登録が必要です。",
+        "save_this_card": "カード情報を保存する",
+        "show_qr_code": "QRコードを表示",
+        "use_card": "カード",
+        "what_is_identity_auth": "本人認証サービスとは？"
+      }
+    }
+  }
+}
