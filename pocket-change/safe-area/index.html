@@ -17,28 +17,27 @@
   -->
   <base href="/pocket-change/safe-area/">
 
-  <meta name="viewport"
-    content="width=device-width,initial-scale=1,maximum-scale=1.0,viewport-fit=cover,width=device-width">
-  </meta>
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="PayS member app">
-  <meta name="theme-color" content="#ff0000">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="PayS App">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
 
   <title>PayS App</title>
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="loading/loader.css">
-
-  <style>
-    html {
-      min-height: calc(100% + env(safe-area-inset-top));
-      padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  <style type="text/css">
+    html,
+    body {
+      margin: 0;
+      max-height: 100%;
+      overflow: hidden;
     }
   </style>
 </head>
@@ -61,7 +60,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '3816948951';
+    var serviceWorkerVersion = '497663979';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
