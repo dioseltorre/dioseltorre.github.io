@@ -354,13 +354,13 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "18ab188988454b20ec6e74a4a9c65db0",
-"/": "18ab188988454b20ec6e74a4a9c65db0",
+"index.html": "53e62993d6ebc8e521c25366e358b852",
+"/": "53e62993d6ebc8e521c25366e358b852",
 "loading/loader.css": "26dcfc9e1794554e3552c772bd4c2b03",
 "loading/loader.js": "d73f0c045b1a2397ea931859e5a8da12",
 "loading/pokepay-logo.svg": "56d8221b9ec4e17570bd0144bf898b8e",
 "loading/pokepay.svg": "b7b8538e259f3a4ee0b3a92a3ecbbdca",
-"main.dart.js": "367f6bb620520dce4798e6afb95f9379",
+"main.dart.js": "9556710162b31d7aa6dfc83d48a2ed66",
 "manifest.json": "da77e2e9f51e1635ffcb5c74f3e6395f",
 "version.json": "3c476c38e3bb9d9eff72274aa593a9ee"
 };
