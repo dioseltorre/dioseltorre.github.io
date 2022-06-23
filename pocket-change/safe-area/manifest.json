@@ -3,10 +3,10 @@
     "short_name": "PayS App",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#ff0000",
+    "background_color": "#222222",
+    "theme_color": "#222222",
     "description": "A new Flutter project.",
-    "orientation": "portrait-primary",
+    "orientation": "portrait",
     "prefer_related_applications": false,
     "icons": [
         {
