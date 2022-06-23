@@ -35,10 +35,17 @@
   <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="loading/loader.css">
 
-  <style>
+  <style type="text/css">
     html {
       min-height: calc(100% + env(safe-area-inset-top));
       padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+    }
+
+    html,
+    body {
+      margin: 0;
+      max-height: 100%;
+      overflow: hidden;
     }
   </style>
 </head>
