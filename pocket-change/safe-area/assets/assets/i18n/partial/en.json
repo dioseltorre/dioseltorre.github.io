@@ -6,6 +6,8 @@
     "welcome": "Welcome",
     "skip": "Skip",
     "next": "Next",
+    "start_with_pays_id": "START with pays ID",
+    "made_with_pokepay": "Made with Pokepay",
     "onboarding": {
       "welcome": "Welcome to\n{money_name}",
       "welcome_description": "This is an E-money for {money_name}.\nLet’s Start!",

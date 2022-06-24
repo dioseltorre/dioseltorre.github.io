@@ -4,8 +4,8 @@
     "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#222222",
-    "description": "A new Flutter project.",
+    "theme_color": "#ffffff",
+    "description": "PayS Member App",
     "orientation": "portrait",
     "prefer_related_applications": false,
     "icons": [

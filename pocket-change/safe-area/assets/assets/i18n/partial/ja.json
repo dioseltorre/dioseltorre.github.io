@@ -6,6 +6,8 @@
     "welcome": "ようこそ",
     "skip": "スキップ",
     "next": "次へ",
+    "start_with_pays_id": "pays ID ではじめる",
+    "made_with_pokepay": "Made with Pokepay",
     "onboarding": {
       "welcome": "ようこそ\n{money_name}",
       "welcome_description": "これはバーガーShopの{money_name}です。\nさぁはじめよう！",

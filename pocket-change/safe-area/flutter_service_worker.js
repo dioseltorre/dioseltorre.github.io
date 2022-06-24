@@ -3,15 +3,15 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "b586a951e3915d0d4ba3208ca62d6458",
+  "assets/AssetManifest.json": "03b0fc3c41fc1e1b3db5894708ed77ff",
 "assets/assets/fonts/NotoSansJP-Medium.otf": "d6c74d39a44c519ff736ac55e5d28a46",
 "assets/assets/fonts/NotoSansJP-Regular.otf": "ecfed48e463db4e31d1691c8af367730",
 "assets/assets/fonts/Roboto-Medium.ttf": "b2d307df606f23cb14e6483039e2b7fa",
 "assets/assets/fonts/Roboto-Regular.ttf": "f36638c2135b71e5a623dca52b611173",
 "assets/assets/i18n/en.json": "22ce7355d635269fbb35038e9fe82a03",
 "assets/assets/i18n/ja.json": "661956e445735522846a4e6948645737",
-"assets/assets/i18n/partial/en.json": "7f2f1712c407574ed876534469a58f5b",
-"assets/assets/i18n/partial/ja.json": "80b1e99e23b22032c4c103e9b30aef0e",
+"assets/assets/i18n/partial/en.json": "4aa4ee863ef56e5fa2b87639c6f43b8b",
+"assets/assets/i18n/partial/ja.json": "baa16ea43958fdf8d1d6a39dac3dead4",
 "assets/assets/icons/credit-card-back.svg": "a03e33e85c5e7a6c9b7f13ad057b696d",
 "assets/assets/icons/credit-card-front.svg": "dfb4613bcbb7458f674c5e8e93e6c55a",
 "assets/assets/icons/Logo.svg": "1a86c6768bebbdd120688fb949d9b6ca",
@@ -165,6 +165,7 @@ const RESOURCES = {
 "assets/packages/pays_design_system/assets/images/svg/github.svg": "b23b0cdcb5225d4ae435c9450ea70c6a",
 "assets/packages/pays_design_system/assets/images/svg/gitlab.svg": "c863d03b8d2dc173e37db4f4e4a2f4e4",
 "assets/packages/pays_design_system/assets/images/svg/globe.svg": "be00f9149a202452c90f739b951351b8",
+"assets/packages/pays_design_system/assets/images/svg/graphic-account-pokepay.svg": "19d8cb7ccc07089e6bd656512c537296",
 "assets/packages/pays_design_system/assets/images/svg/grid.svg": "c4ece7f3ab175dd9178cb352032a270e",
 "assets/packages/pays_design_system/assets/images/svg/hard-drive.svg": "124df0967f31d426755fc1e7a0716b20",
 "assets/packages/pays_design_system/assets/images/svg/hash.svg": "d9d1f62e863891bb266134a1abe811f7",
@@ -354,14 +355,14 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "288f4485202f95eb3a624c57a1a36dcf",
-"/": "288f4485202f95eb3a624c57a1a36dcf",
+"index.html": "281343517e5dbcc787aad04cbb1563c5",
+"/": "281343517e5dbcc787aad04cbb1563c5",
 "loading/loader.css": "26dcfc9e1794554e3552c772bd4c2b03",
 "loading/loader.js": "d73f0c045b1a2397ea931859e5a8da12",
 "loading/pokepay-logo.svg": "56d8221b9ec4e17570bd0144bf898b8e",
 "loading/pokepay.svg": "b7b8538e259f3a4ee0b3a92a3ecbbdca",
-"main.dart.js": "05da5e56a3cb7840ee1369cedf579caa",
-"manifest.json": "4a40160990ea5be5530277794170449c",
+"main.dart.js": "dd11391ca3ce2cfe01d7e8ae8b8057e7",
+"manifest.json": "dcd4a3f4165165a646a2e931c0e919f2",
 "version.json": "3c476c38e3bb9d9eff72274aa593a9ee"
 };
 
