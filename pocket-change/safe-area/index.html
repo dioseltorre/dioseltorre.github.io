@@ -39,14 +39,11 @@
       max-height: 100%;
       overflow: hidden;
     }
-    body {
-      background: linear-gradient(to bottom right, red, yellow);
-    }
   </style>
   <script>
     function setMetaThemeColor(color) {
-      // document.querySelector('meta[name="theme-color"]').setAttribute("content", color);
-      // document.body.style.background = color;
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", color);
+      document.body.style.background = color;
     }
   </script>
 </head>
