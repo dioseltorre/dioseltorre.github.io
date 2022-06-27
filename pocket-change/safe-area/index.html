@@ -39,14 +39,11 @@
       max-height: 100%;
       overflow: hidden;
     }
-    body {
-      background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
-    }
   </style>
   <script>
     function setMetaThemeColor(color) {
-      // document.querySelector('meta[name="theme-color"]').setAttribute("content", color);
-      // document.body.style.background = color;
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", color);
+      document.body.style.background = color;
     }
   </script>
 </head>
@@ -69,7 +66,7 @@
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
   <script>
-    var serviceWorkerVersion = '1917269032';
+    var serviceWorkerVersion = '2627413995';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
