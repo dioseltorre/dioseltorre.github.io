@@ -135,6 +135,7 @@
     },
     "continue": "Continue",
     "done": "Done",
+    "error": "Error",
     "input_code": {
       "header_description": "A verification code has been sent to {email} via email. Please enter the authorization code.",
       "header_title": "Enter the authorization code.",
@@ -192,23 +193,25 @@
         "sign_out": "Sign out"
       },
       "money": "Money",
-      "my_page": {
-        "menu_title": "My Page"
+      "notification": {
+        "menu_title": "News"
       },
       "pay": "Pay",
       "payment": {
         "continue_payment": "Continue Payment",
+        "insufficient_balance": "Your balance is insufficient",
         "invalid_qr_msg_text": "Please confirm the QR code is for payment",
         "invalid_qr_msg_title": "This is not a payment QR code",
         "pay_with": "Pay with {name}",
         "payment": "Payment",
+        "please_recharge": "Please recharge",
         "use_points": "Use points"
       },
       "points": "Point",
       "qr_code": "QR Code",
       "register": "Register",
       "scan": "Scan",
-      "topup_message": "You can topup only money via creditcard or cash.",
+      "topup_message": "You can topup only money via credit card or cash.",
       "transaction_complete": {
         "charge_complete": "Charge complete in {name}",
         "payment_complete": "Payment complete in {shop}",
@@ -220,10 +223,11 @@
       "transaction_history": {
         "cancelled_msg": "This transaction has already been cancelled.",
         "header_description": "Here you can see a list of your past transactions",
-        "menu_title": "Transaction",
+        "menu_title": "History",
         "receiver_name": "Receiver: {name}",
         "sender_name": "Sender: {name}",
         "shop_name": "Shop: {name}",
+        "transaction_history": "Transaction History",
         "transaction_id": "TxID：{id}"
       }
     },

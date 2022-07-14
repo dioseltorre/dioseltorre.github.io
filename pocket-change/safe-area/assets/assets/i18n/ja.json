@@ -140,6 +140,7 @@
       "header_title": "コードを入力",
       "resend_code": "コードを再送する"
     },
+    "made_with_pokepay": "Made with Pokepay",
     "main": {
       "available_balance": "利用可能残高",
       "balance_amount": "残高 {amount}",
@@ -191,8 +192,8 @@
         "sign_out": "ログアウト"
       },
       "money": "マネー",
-      "my_page": {
-        "menu_title": "マイページ"
+      "notification": {
+        "menu_title": "お知らせ"
       },
       "pay": "支払い",
       "payment": {
@@ -223,6 +224,7 @@
         "receiver_name": "受け取りメンバー：{name}",
         "sender_name": "送信メンバー：{name}",
         "shop_name": "ショップ：{name}",
+        "transaction_history": "取引履歴",
         "transaction_id": "取引ID: {id}"
       }
     },
@@ -250,6 +252,7 @@
     },
     "skip": "スキップ",
     "start": "はじめる",
+    "start_with_pays_id": "pays ID ではじめる",
     "welcome": "ようこそ"
   },
   "transaction": {

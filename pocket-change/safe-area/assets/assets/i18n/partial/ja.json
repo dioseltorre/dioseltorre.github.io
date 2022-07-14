@@ -6,6 +6,7 @@
     "welcome": "ようこそ",
     "skip": "スキップ",
     "next": "次へ",
+    "error": "エラー",
     "start_with_pays_id": "pays ID ではじめる",
     "made_with_pokepay": "Made with Pokepay",
     "onboarding": {
@@ -69,7 +70,8 @@
         "receiver_name": "受け取りメンバー：{name}",
         "sender_name": "送信メンバー：{name}",
         "shop_name": "ショップ：{name}",
-        "cancelled_msg": "この取引はすでに取り消されています。 "
+        "cancelled_msg": "この取引はすでに取り消されています。 ",
+        "transaction_history": "取引履歴"
       },
       "expiration_list": {
         "menu_title": "有効期限",
@@ -91,7 +93,9 @@
         "continue_payment": "支払いを続ける",
         "pay_with": "{name}で支払い",
         "invalid_qr_msg_title": "決済用QRコードではありません",
-        "invalid_qr_msg_text": "決済用のQRコードであることをご確認ください"
+        "invalid_qr_msg_text": "決済用のQRコードであることをご確認ください",
+        "insufficient_balance": "残高が不足しています",
+        "please_recharge": "チャージをしてください"
       },
       "transaction_complete": {
         "charge_complete": "{name}にチャージ完了",
@@ -101,8 +105,8 @@
         "transaction_id": "取引ID：{id}",
         "transaction_date": "y年M月d日 (E) H:mm"
       },
-      "my_page": {
-        "menu_title": "マイページ"
+      "notification": {
+        "menu_title": "お知らせ"
       },
       "charge": {
         "add_card": "カードを追加",

@@ -6,6 +6,7 @@
     "welcome": "Welcome",
     "skip": "Skip",
     "next": "Next",
+    "error": "Error",
     "start_with_pays_id": "START with pays ID",
     "made_with_pokepay": "Made with Pokepay",
     "onboarding": {
@@ -54,7 +55,7 @@
       "pay": "Pay",
       "available_balance": "Available balance",
       "consume_point_on_payment": "Consume point on payment",
-      "topup_message": "You can topup only money via creditcard or cash.",
+      "topup_message": "You can topup only money via credit card or cash.",
       "register": "Register",
       "home": {
         "menu_title": "Home",
@@ -63,13 +64,14 @@
         "pay_with_this_code": "Pay with this code"
       },
       "transaction_history": {
-        "menu_title": "Transaction",
+        "menu_title": "History",
         "header_description": "Here you can see a list of your past transactions",
         "transaction_id": "TxID：{id}",
         "receiver_name": "Receiver: {name}",
         "sender_name": "Sender: {name}",
         "shop_name": "Shop: {name}",
-        "cancelled_msg": "This transaction has already been cancelled."
+        "cancelled_msg": "This transaction has already been cancelled.",
+        "transaction_history": "Transaction History"
       },
       "expiration_list": {
         "menu_title": "Expiration date",
@@ -91,7 +93,9 @@
         "continue_payment": "Continue Payment",
         "pay_with": "Pay with {name}",
         "invalid_qr_msg_title": "This is not a payment QR code",
-        "invalid_qr_msg_text": "Please confirm the QR code is for payment"
+        "invalid_qr_msg_text": "Please confirm the QR code is for payment",
+        "insufficient_balance": "Your balance is insufficient",
+        "please_recharge": "Please recharge"
       },
       "transaction_complete": {
         "charge_complete": "Charge complete in {name}",
@@ -101,8 +105,8 @@
         "transaction_id": "Transaction ID：{id}",
         "transaction_date": "E, MMM d y H:mm"
       },
-      "my_page": {
-        "menu_title": "My Page"
+      "notification": {
+        "menu_title": "News"
       },
       "charge": {
         "add_card": "Add a card",
