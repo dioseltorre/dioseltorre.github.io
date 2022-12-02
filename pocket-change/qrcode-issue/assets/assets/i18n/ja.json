@@ -1,0 +1,336 @@
+{
+  "close": "閉じる",
+  "components": {
+    "atoms": {
+      "button": {
+        "apply": "適用",
+        "back": "戻る",
+        "cancel": "キャンセル",
+        "close": "閉じる",
+        "continue": "続ける",
+        "done": "完了",
+        "edit": "編集",
+        "edit_columns": "列を編集",
+        "filters": "絞り込み",
+        "login": "ログイン",
+        "next": "次へ進む",
+        "ok": "Ok",
+        "play": "再生",
+        "print": "印刷",
+        "search": "検索",
+        "send": "送信",
+        "show": "表示",
+        "sorting": "並べ替え"
+      }
+    },
+    "molecules": {
+      "calendar": {
+        "custom_range": "カレンダーで期間指定",
+        "date_picker": {
+          "date_range_bar_title": "期間を選択",
+          "datefmt": "y/M/d",
+          "monthfmt": "y年MMMM",
+          "select_date_range": "期間を選択"
+        },
+        "dow_abbr": {
+          "fri": "金",
+          "mon": "月",
+          "sat": "土",
+          "sun": "日",
+          "thu": "木",
+          "tue": "火",
+          "wed": "水"
+        },
+        "last_month": "先月",
+        "last_n_days": "過去{days}日間",
+        "last_year": "昨年",
+        "second_last_year": "一昨年",
+        "select_date_range": "期間を選択",
+        "this_month": "今月",
+        "this_year": "今年",
+        "today": "今日",
+        "yesterday": "昨日"
+      },
+      "color_picker": {
+        "color_code": "カラーコード",
+        "filled": "塗りつぶし",
+        "linear": "グラデーション"
+      },
+      "comment": {
+        "edited": "(編集済み)"
+      },
+      "search_popup": {
+        "filter": "フィルター",
+        "history": "履歴",
+        "search": "検索"
+      }
+    },
+    "templates": {
+      "navbar": {
+        "coming_soon": "まもなく登場"
+      },
+      "preview": "プレビュー",
+      "step": {
+        "back": "戻る",
+        "next": "次へ"
+      }
+    }
+  },
+  "date_formats": {
+    "yMMd_HHmm": "y/MM/d HH:mm"
+  },
+  "fetch_result": {
+    "coming_soon": "まもなく登場",
+    "error": "エラー",
+    "load_failed": "読み込みに失敗しました",
+    "new_feature_coming_soon": "新機能としてまもなく登場します\nもう少しだけお待ちください",
+    "no_data": "データがまだありません",
+    "reload": "再読み込み"
+  },
+  "login": {
+    "header": {
+      "title": "pokepayにログイン"
+    },
+    "pages": {
+      "mail": {
+        "description": "ログインするアカウントのメールアドレスを入力して下さい。\n表示された組織名が違う場合は戻ってやり直してください",
+        "inputs": {
+          "mail": {
+            "caption": "メールアドレス",
+            "hintText": "メールアドレスを入力して下さい"
+          }
+        },
+        "title": "メールアドレスを入力"
+      },
+      "org": {
+        "description": "組織コードを入力",
+        "inputs": {
+          "org": {
+            "caption": "組織コード",
+            "hintText": "組織コードを入力して下さい"
+          }
+        },
+        "title": "組織コードを入力"
+      },
+      "password": {
+        "description": "ログインするアカウントのパスワードを認証してください。",
+        "inputs": {
+          "password": {
+            "caption": "パスワード",
+            "hintText": "パスワードを入力して下さい"
+          }
+        },
+        "title": "パスワードを入力"
+      }
+    }
+  },
+  "pages": {
+    "auth": {
+      "email_address": "メールアドレス",
+      "header_description": "メールアドレスを入力してください。",
+      "header_title": "メールアドレスを入力",
+      "privacy_policy": "プライバシーポリシ",
+      "terms_conditions": "利用規約",
+      "terms_policy": "{terms_conditions}と{privacy_policy}ーに同意して"
+    },
+    "continue": "続ける",
+    "done": "完了",
+    "error": "エラー",
+    "frame_layout": {
+      "chargeable_amount": "チャージ可能金額"
+    },
+    "input_code": {
+      "header_description": "{email}にメールで確認コードを送信しました。認証コードを入力してください。",
+      "header_title": "コードを入力",
+      "resend_code": "コードを再送する"
+    },
+    "made_with_pokepay": "Made with Pokepay",
+    "main": {
+      "account": {
+        "about_this_money": "このマネーについて",
+        "address": "住所",
+        "app_version": "バージョン",
+        "apply_changes": "変更を適用する",
+        "call_to_receive_code": "電話でコードを受け取る",
+        "change_profile_image": "写真を変更",
+        "confirm_delete_account": "本当に解約しますか？",
+        "confirm_image_delete_message": "この操作は取り消すことができません",
+        "confirm_image_delete_title": "本当に削除しますか？",
+        "confirm_logout_message": "マネーを使用するためには、再度ログインしてください。",
+        "confirm_logout_title": "本当にログアウトしますか？",
+        "delete_account_no_balance": "アカウントを削除すると、アカウントに登録された情報はすべて削除されてしまいます。一度削除した情報は復元することはできません。",
+        "delete_account_with_balance": "アカウントを解約すると、これらの残高は削除されてしまいます。一度削除された残高は復元できません。",
+        "delete_image": "写真を削除する",
+        "delete_my_account": "アカウントの解約",
+        "didnt_receive_email": "認証コードが届かないときは...",
+        "didnt_receive_sms_code": "30秒待っても認証番号が届かないときは",
+        "dont_delete_account": "解約せず、前の画面に戻る",
+        "edit_profile": "プロフィール編集",
+        "enter_code_to_continue": "ご登録のメールアドレスに認証コードをお送りしました",
+        "enter_sms_code_to_continue": "SMSで送信した認証コードを入力してください",
+        "enter_verification_code": "認証コードを入力",
+        "join_pocket_change": "Pocket Change 採用情報",
+        "license": "ライセンス",
+        "logout": "ログアウト",
+        "menu_title": "アカウント",
+        "money_name": "マネー名",
+        "name": "お名前",
+        "open_mail": "メールアプリを開く",
+        "other_settings": "その他の設定",
+        "phone_number": "電話番号",
+        "provider": "発行元",
+        "resend_email": "メールを再送信",
+        "start_original_emoney": "自分のお店にもオリジナル電子マネーを導入する",
+        "start_pokepay": "Pokepayを導入する",
+        "terms_of_use": "利用規約",
+        "there_is_unused_balance": "未使用の残高があります",
+        "verification_code": "認証コード",
+        "we_are_looking_developer": "Pokepayを一緒に作る仲間を募集しています！",
+        "your_registered_email": "ご登録のメールアドレス\n{email}"
+      },
+      "available_balance": "利用可能残高",
+      "balance_amount": "残高 {amount}",
+      "cancel": "キャンセル",
+      "charge": {
+        "add_card": "カードを追加",
+        "card_has_expired": "カードの有効期限が過ぎています",
+        "card_identification": "カードの本人確認",
+        "card_name": "カードの名称",
+        "card_number": "カード番号",
+        "cc_info_text": "お客様のカード情報保護の観点から、クレジットカード会社による「本人認証サービス（3Dセキュア）」の設定をお願いしています。\n\n設定方法についてはクレジットカード会社にお問い合わせください。",
+        "change_card": "使用するカード",
+        "charge": "チャージ",
+        "charge_in": "{name}にチャージ",
+        "current": "現在",
+        "delete_card": "カード情報を削除",
+        "desired": "チャージ後",
+        "enter_valid_card_number": "有効なカード番号を入力してください",
+        "enter_valid_cvc": "有効なセキュリティコードを入力してください",
+        "enter_valid_month": "有効な月を入力してください",
+        "enter_valid_year": "有効な年を入力してください",
+        "expiration_date": "有効期限",
+        "indication_message": "特定商取引法に基づく表示",
+        "input_the_amount": "金額を入力",
+        "pc_responsibility_message": "※クレジットカード払いでの本マネーのチャージ（ご購入）に関しては、株式会社ポケットチェンジが販売責任者となります。クレジットカードのご利用明細では、「電子マネーチャージ（ポケットチェンジ）と表示されます。」",
+        "register_card": "カード登録",
+        "register_id_auth_message": "本アプリでのご利用前に本人認証サービス（3Dセキュア）へのご登録が必要です。",
+        "save_this_card": "カード情報を保存する",
+        "show_qr_code": "QRコードを表示",
+        "use_card": "カード",
+        "what_is_identity_auth": "本人認証サービスとは？"
+      },
+      "consume_point_on_payment": "ポイントを利用",
+      "earned_point": "{point}ポイント獲得",
+      "edit": "編集",
+      "expiration_list": {
+        "available": "利用可能",
+        "date_format": "yyyy/MM/dd",
+        "expiration_date": "{date}に失効",
+        "expired": "失効済み",
+        "expired_on": "{date}に失効",
+        "expires_in": "{date}に失効",
+        "expiry_date": "有効期限",
+        "no_available_balance": "残高はありません",
+        "some_balances_expire_in_week": "1週間以内に有効期限が切れる残高があります",
+        "wallet_information": "ウォレット情報"
+      },
+      "home": {
+        "breakdown": "内訳",
+        "check_expiration_date": "{expiration_date}を確認する",
+        "menu_title": "ホーム",
+        "pay_with_this_code": "このコードで支払う"
+      },
+      "money": "マネー",
+      "news": {
+        "feature_not_available": {
+          "description": "お知らせ機能は次回のアップデートで追加\nされる予定です。お楽しみに！",
+          "title": "お知らせ機能はまだありません"
+        },
+        "menu_title": "お知らせ"
+      },
+      "paste": "ペースト",
+      "pay": "支払い",
+      "payment": {
+        "continue_payment": "支払いを続ける",
+        "insufficient_balance": "残高が不足しています",
+        "invalid_qr_msg_text": "決済用のQRコードであることをご確認ください",
+        "invalid_qr_msg_title": "決済用QRコードではありません",
+        "pay_with": "{name}で支払い",
+        "payment": "支払い",
+        "please_recharge": "チャージをしてください",
+        "use_points": "ポイントを使用"
+      },
+      "points": "ポイント",
+      "qr_code": "QRコード",
+      "register": "登録する",
+      "save": "編集を保存",
+      "scan": "読み取る",
+      "topup_message": "クレジットカードまたは現金では、マネーのみチャージできます。",
+      "transaction_complete": {
+        "charge_complete": "{name}にチャージ完了",
+        "payment_complete": "{shop}に支払い完了",
+        "show_detail": "詳細を見る",
+        "transaction_date": "y年M月d日 (E) H:mm",
+        "transaction_id": "取引ID：{id}",
+        "used_point": "{point}使用"
+      },
+      "transaction_history": {
+        "amount_of_charge": "チャージ金額",
+        "amount_of_money": "支払ったマネー",
+        "amount_of_payment": "支払い金額",
+        "amount_of_point": "支払ったポイント",
+        "cancellation_process": "取り消し処理",
+        "cancellation_process_for_tx": "この取引のキャンセル処理",
+        "cancelled_message": "この取引はキャンセルされています。",
+        "charge_in_shop": "{name}へチャージ",
+        "menu_title": "取引履歴",
+        "pay_to_shop": "{name}へ支払い",
+        "points_earned": "獲得ポイント",
+        "received_from_name": "{userName}から受け取り",
+        "section_date_format": "y年M月d日（E）",
+        "sent_to_name": "{userName}に送金完了",
+        "show_breakdown": "内訳を表示",
+        "time_format": "H時m分",
+        "transaction_history": "取引履歴",
+        "tx_canceled_by_process": "この処理で取り消した取引"
+      }
+    },
+    "next": "次へ",
+    "not_found": {
+      "header_description": "お探しのページはご利用いただけません。",
+      "header_title": "ページが見つかりません"
+    },
+    "onboarding": {
+      "guide_message": "カードをタップすると、\nQRコードを表示できます。",
+      "onboarding_2": "支払いは簡単。\nQRコードをスキャンするだけ。",
+      "onboarding_3": "クレジットカード、\n現金などでチャージできます。",
+      "onboarding_4": "Yお気に入りショップの\n情報が受け取れる",
+      "welcome": "ようこそ\n{money_name}",
+      "welcome_description": "これはバーガーShopの{money_name}です。\nさぁはじめよう！"
+    },
+    "registration": {
+      "header_description": "ポケペイで使用するメンバー名を教えてください。",
+      "header_title": "メンバー名を新規登録",
+      "name_hint": "田中　香里"
+    },
+    "registration_complete": {
+      "header_description": "{name}さん、ようこそ！",
+      "header_title": "登録完了",
+      "start_pokepay": "ポケペイを始める"
+    },
+    "skip": "スキップ",
+    "start": "はじめる",
+    "start_with_pays_id": "pays ID ではじめる",
+    "team_name": "{name}チーム",
+    "welcome": "ようこそ"
+  },
+  "transaction": {
+    "cancelling": "消し込み",
+    "charge": "チャージ",
+    "charge_cancel": "チャージキャンセル",
+    "payment": "支払い",
+    "payment_cancel": "支払いキャンセル",
+    "remit_receive": "受け取り",
+    "remit_send": "送金"
+  }
+}
