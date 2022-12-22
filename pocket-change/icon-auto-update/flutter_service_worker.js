@@ -363,12 +363,12 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
-"index.html": "87be5bfe5dd6a4390a6a0124f701d25c",
-"/": "87be5bfe5dd6a4390a6a0124f701d25c",
+"index.html": "df9235beb78d2905a5b8b46724f3be5e",
+"/": "df9235beb78d2905a5b8b46724f3be5e",
 "loading/loader.css": "be1ba0f572bd693e58c5db8b204f0526",
 "loading/loader.js": "e1f131643b3fe81e29f1e93f0f9f58be",
 "loading/made-with-pokepay.svg": "a66e51b89e3865a196e3a8ed33274c4f",
-"main.dart.js": "ada8e43ed11aa35d79a03ada5cf6a313",
+"main.dart.js": "b2efa7eabc8b66ddc35e3d5368196aac",
 "manifest.json": "87dc387940ae4a465780a8131b8d0c36",
 "version.json": "3c476c38e3bb9d9eff72274aa593a9ee"
 };
