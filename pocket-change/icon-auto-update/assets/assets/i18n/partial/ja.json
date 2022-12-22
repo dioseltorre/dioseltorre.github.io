@@ -1,0 +1,220 @@
+{
+  "pages": {
+    "continue": "続ける",
+    "done": "完了",
+    "start": "はじめる",
+    "welcome": "ようこそ",
+    "skip": "スキップ",
+    "next": "次へ",
+    "error": "エラー",
+    "start_with_pays_id": "pays ID ではじめる",
+    "made_with_pokepay": "Made with Pokepay",
+    "team_name": "{name}チーム",
+    "onboarding": {
+      "welcome": "ようこそ\n{money_name}",
+      "welcome_description": "これは{team_name}の{money_name}です。\nさぁはじめよう！",
+      "screen2": "支払いは簡単。\nQRコードをスキャンするだけ。",
+      "screen3": "クレジットカード、現金などで\nチャージできます。",
+      "screen4": "お気に入りショップの情報が受け\n取れる",
+      "guide_message": "カードをタップすると、\nQRコードを表示できます。"
+    },
+    "auth": {
+      "header_title": "メールアドレスを入力",
+      "header_description": "メールアドレスを入力してください。",
+      "email_address": "メールアドレス",
+      "terms_policy": "{terms_conditions}と{privacy_policy}ーに同意して",
+      "terms_conditions": "利用規約",
+      "privacy_policy": "プライバシーポリシ"
+    },
+    "input_code": {
+      "header_title": "コードを入力",
+      "header_description": "{email}にメールで確認コードを送信しました。認証コードを入力してください。",
+      "resend_code": "コードを再送する"
+    },
+    "registration": {
+      "header_title": "メンバー名を新規登録",
+      "header_description": "ポケペイで使用するメンバー名を教えてください。",
+      "name_hint": "田中　香里"
+    },
+    "registration_complete": {
+      "header_title": "登録完了",
+      "header_description": "{name}さん、ようこそ！",
+      "start_pokepay": "ポケペイを始める"
+    },
+    "not_found": {
+      "header_title": "ページが見つかりません",
+      "header_description": "お探しのページはご利用いただけません。"
+    },
+    "frame_layout": {
+      "chargeable_amount": "チャージ可能金額"
+    },
+    "add_to_homescreen": {
+      "add_to_homescreen": "ホーム画面に追加しましょう",
+      "add_to_homescreen_desc": "ホーム画面に追加すると、アプリのように\nすばやく開くことができます。",
+      "left_text": "",
+      "right_text": "をタップして「ホーム画面に追加」",
+      "recommendation": "おすすめ"
+    },
+    "recommend_browser": {
+      "open_chrome": "まずはChromeで開きましょう",
+      "open_safari": "まずはSafariで開きましょう",
+      "open_chrome_desc": "アプリ内ブラウザーなど、一部環境では正しく動作しない場合があるため、Chromeで開くことをおすすめします",
+      "open_safari_desc": "アプリ内ブラウザーなど、一部環境では正しく動作しない場合があるため、Safariで開くことをおすすめします",
+      "ok": "了解"
+    },
+    "main": {
+      "cancel": "キャンセル",
+      "dont_show_again": "以後表示しない",
+      "earned_point": "{point}ポイント獲得",
+      "edit": "編集",
+      "points": "ポイント",
+      "money": "マネー",
+      "qr_code": "QRコード",
+      "scan": "読み取る",
+      "balance_amount": "残高 {amount}",
+      "pay": "支払い",
+      "paste": "ペースト",
+      "available_balance": "利用可能残高",
+      "consume_point_on_payment": "ポイントを利用",
+      "topup_message": "クレジットカードまたは現金では、マネーのみチャージできます。",
+      "register": "登録する",
+      "save": "編集を保存",
+      "home": {
+        "menu_title": "ホーム",
+        "check_expiration_date": "{expiration_date}を確認する",
+        "breakdown": "内訳",
+        "pay_with_this_code": "このコードで支払う"
+      },
+      "transaction_history": {
+        "menu_title": "取引履歴",
+        "pay_to_shop": "{name}へ支払い",
+        "charge_in_shop": "{name}へチャージ",
+        "cancellation_process": "取り消し処理",
+        "cancelled_message": "この取引はキャンセルされています。",
+        "transaction_history": "取引履歴",
+        "section_date_format": "y年M月d日（E）",
+        "time_format": "H時m分",
+        "received_from_name": "{userName}から受け取り",
+        "sent_to_name": "{userName}に送金完了",
+        "amount_of_charge": "チャージ金額",
+        "amount_of_payment": "支払い金額",
+        "amount_of_money": "支払ったマネー",
+        "amount_of_point": "支払ったポイント",
+        "points_earned": "獲得ポイント",
+        "show_breakdown": "内訳を表示",
+        "cancellation_process_for_tx": "この取引のキャンセル処理",
+        "tx_canceled_by_process": "この処理で取り消した取引"
+      },
+      "expiration_list": {
+        "expiry_date": "有効期限",
+        "available": "利用可能",
+        "expired": "失効済み",
+        "expires_in": "{date}に失効",
+        "expiration_date": "{date}に失効",
+        "expired_on": "{date}に失効",
+        "date_format": "yyyy/MM/dd",
+        "wallet_information": "ウォレット情報",
+        "some_balances_expire_in_week": "1週間以内に有効期限が切れる残高があります",
+        "no_available_balance": "残高はありません"
+      },
+      "account": {
+        "address": "住所",
+        "apply_changes": "変更を適用する",
+        "about_this_money": "このマネーについて",
+        "call_to_receive_code": "電話でコードを受け取る",
+        "change_profile_image": "写真を変更",
+        "confirm_image_delete_title": "本当に削除しますか？",
+        "confirm_image_delete_message": "この操作は取り消すことができません",
+        "confirm_logout_title": "本当にログアウトしますか？",
+        "confirm_logout_message": "マネーを使用するためには、再度ログインしてください。",
+        "confirm_delete_account": "本当に解約しますか？",
+        "delete_account_with_balance": "アカウントを解約すると、これらの残高は削除されてしまいます。一度削除された残高は復元できません。",
+        "delete_account_no_balance": "アカウントを削除すると、アカウントに登録された情報はすべて削除されてしまいます。一度削除した情報は復元することはできません。",
+        "delete_my_account": "アカウントの解約",
+        "delete_image": "写真を削除する",
+        "didnt_receive_email": "認証コードが届かないときは...",
+        "didnt_receive_sms_code": "30秒待っても認証番号が届かないときは",
+        "dont_delete_account": "解約せず、前の画面に戻る",
+        "edit_profile": "プロフィール編集",
+        "enter_verification_code": "認証コードを入力",
+        "enter_code_to_continue": "ご登録のメールアドレスに認証コードをお送りしました",
+        "enter_sms_code_to_continue": "SMSで送信した認証コードを入力してください",
+        "join_pocket_change": "Pocket Change 採用情報",
+        "license": "ライセンス",
+        "logout": "ログアウト",
+        "money_name": "マネー名",
+        "menu_title": "アカウント",
+        "name": "お名前",
+        "open_mail": "メールアプリを開く",
+        "other_settings": "その他の設定",
+        "phone_number": "電話番号",
+        "provider": "発行元",
+        "resend_email": "メールを再送信",
+        "start_pokepay": "Pokepayを導入する",
+        "start_original_emoney": "自分のお店にもオリジナル電子マネーを導入する",
+        "terms_of_use": "利用規約",
+        "there_is_unused_balance": "未使用の残高があります",
+        "verification_code": "認証コード",
+        "app_version": "バージョン",
+        "we_are_looking_developer": "Pokepayを一緒に作る仲間を募集しています！",
+        "your_registered_email": "ご登録のメールアドレス\n{email}"
+      },
+      "payment": {
+        "payment": "支払い",
+        "use_points": "ポイントを使用",
+        "continue_payment": "支払いを続ける",
+        "pay_with": "{name}で支払い",
+        "invalid_qr_msg_title": "決済用QRコードではありません",
+        "invalid_qr_msg_text": "決済用のQRコードであることをご確認ください",
+        "insufficient_balance": "残高が不足しています",
+        "please_recharge": "チャージをしてください",
+        "you_can_pay_charge_msg": "このQRコードで支払い、チャージができます"
+      },
+      "transaction_complete": {
+        "charge_complete": "{name}にチャージ完了",
+        "payment_complete": "{shop}に支払い完了",
+        "used_point": "{point}使用",
+        "show_detail": "詳細を見る",
+        "transaction_id": "取引ID：{id}",
+        "transaction_date": "y年M月d日 (E) H:mm"
+      },
+      "news": {
+        "menu_title": "お知らせ",
+        "feature_not_available": {
+          "title": "お知らせ機能はまだありません",
+          "description": "お知らせ機能は次回のアップデートで追加\nされる予定です。お楽しみに！"
+        }
+      },
+      "charge": {
+        "add_card": "カードを追加",
+        "card_identification": "カードの本人確認",
+        "card_name": "カードの名称",
+        "card_number": "カード番号",
+        "charge": "チャージ",
+        "charge_in": "{name}にチャージ",
+        "cc_info_text": "お客様のカード情報保護の観点から、クレジットカード会社による「本人認証サービス（3Dセキュア）」の設定をお願いしています。\n\n設定方法についてはクレジットカード会社にお問い合わせください。",
+        "change_card": "使用するカード",
+        "current": "現在",
+        "delete_card": "カード情報を削除",
+        "desired": "チャージ後",
+        "expiration_date": "有効期限",
+        "give_money_message": "レジでお金を渡して、QR\nコードを見せてください。",
+        "input_the_amount": "金額を入力",
+        "indication_message": "特定商取引法に基づく表示",
+        "pc_responsibility_message": "※クレジットカード払いでの本マネーのチャージ（ご購入）に関しては、株式会社ポケットチェンジが販売責任者となります。クレジットカードのご利用明細では、「電子マネーチャージ（ポケットチェンジ）と表示されます。」",
+        "register_card": "カード登録",
+        "register_id_auth_message": "本アプリでのご利用前に本人認証サービス（3Dセキュア）へのご登録が必要です。",
+        "select_charge_method": "チャージ方法を選択",
+        "save_this_card": "カード情報を保存する",
+        "show_qr_code": "QRコードを\n表示",
+        "use_card": "カード",
+        "what_is_identity_auth": "本人認証サービスとは？",
+        "card_has_expired": "カードの有効期限が過ぎています",
+        "enter_valid_card_number": "有効なカード番号を入力してください",
+        "enter_valid_month": "有効な月を入力してください",
+        "enter_valid_year": "有効な年を入力してください",
+        "enter_valid_cvc": "有効なセキュリティコードを入力してください"
+      }
+    }
+  }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="PayS Member App">
+  <meta name="theme-color" content="#efefef">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="PayS App">
+  <!-- apple-touch-icon is inserted in head via js when the page loads -->
+  <!-- <link rel="apple-touch-icon"
+    href="https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/icon?id=058b715e-23d8-4952-a8fd-5d5a0dfc7c37&width=192&height=192"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+
+  <title>PayS App</title>
+  <link rel="manifest" href="manifest.json">
+  <link href='https://fonts.googleapis.com/css?family=Roboto|Noto Sans' rel='stylesheet'>
+  <link rel="stylesheet" href="loading/loader.css">
+  <style type="text/css">
+    html,
+    body {
+      margin: 0;
+      max-height: 100%;
+      overflow: hidden;
+    }
+
+  </style>
+  <script>
+    function setMetaThemeColor(color) {
+      document.querySelector('meta[name="theme-color"]').setAttribute("content", color);
+      document.body.style.background = color;
+    }
+  </script>
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = '1130417463';
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+  <script src="loading/loader.js"></script>
+</head>
+
+<body style="background: #efefef;">
+  <!-- Loading indicator -->
+  <div class="loading">
+    <div id="icon-card" class="icon-card">
+      <div id="money-icon"></div>
+    </div>
+    <p id="money-name" class="money-name">&nbsp;</p>
+    <div id="loading-container" class="loading-container">
+      <div class="loading-bar">
+        <div class="bar"></div>
+      </div>
+      <p>
+        <label id="message">読み込み中です / Now Loading</label>
+      </p>
+    </div>
+  </div>
+  <div class="made-with-pokepay" style="position: fixed; bottom: 40px; left: 50%; transform: translateX(-50%);">
+    <div style="text-align: center;">
+      <img src="loading/made-with-pokepay.svg" width="88" height="40" />
+    </div>
+  </div>
+  <script>
+    window.addEventListener('load', function (ev) {
+      startLoadingIndicator();
+
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function (engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function (appRunner) {
+        return appRunner.runApp();
+      });
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.3.1/dist/jsQR.min.js"></script>
+</body>
+
+</html>

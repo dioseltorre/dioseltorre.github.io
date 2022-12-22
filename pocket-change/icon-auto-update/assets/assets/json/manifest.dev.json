@@ -1,0 +1,159 @@
+{
+  "name": "money name",
+  "short_name": "money name",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#FFFFFF",
+  "description": "",
+  "orientation": "portrait-primary",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/media/img/icon?id=058b715e-23d8-4952-a8fd-5d5a0dfc7c37&width=192&height=192",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": null
+    },
+    {
+      "src": "/media/img/icon?id=058b715e-23d8-4952-a8fd-5d5a0dfc7c37&width=512&height=512",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": null
+    },
+    {
+      "src": "/media/img/icon?id=058b715e-23d8-4952-a8fd-5d5a0dfc7c37&width=192&height=192",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/media/img/icon?id=058b715e-23d8-4952-a8fd-5d5a0dfc7c37&width=512&height=512",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "team_name": "",
+  "team_email": null,
+  "team_tel": null,
+  "team_url": null,
+  "team_region_code": null,
+  "team_postal_code": null,
+  "team_address": null,
+  "artwork_url": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/artwork?id=117788bb-25e4-49fc-8a4c-5062037fad7a",
+  "icon_url": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/icon?id=058b715e-23d8-4952-a8fd-5d5a0dfc7c37",
+  "cover_url": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/cover?id=52f726a3-cd10-4d72-94fb-ac042484913f",
+  "money_config": {
+    "state": "Trial",
+    "unit_name": "Php",
+    "media": {
+      "artwork": {
+        "id": "117788bb-25e4-49fc-8a4c-5062037fad7a",
+        "generated_icon_id": "058b715e-23d8-4952-a8fd-5d5a0dfc7c37",
+        "__typename": "Upload"
+      },
+      "icon": {
+        "id": "058b715e-23d8-4952-a8fd-5d5a0dfc7c37",
+        "__typename": "Preset"
+      },
+      "cover": {
+        "id": "52f726a3-cd10-4d72-94fb-ac042484913f",
+        "__typename": "Preset"
+      },
+      "sound_on_payment": {
+        "__typename": "Preset",
+        "kind": "PiyoPiyo"
+      },
+      "sound_on_charge": {
+        "__typename": "Preset",
+        "kind": "PiyoPiyo"
+      }
+    },
+    "member_app_pwa_published": true,
+    "member_app_pwa_short_name": "money name",
+    "member_app_pwa_description": null,
+    "rate_base_currency": "JPY",
+    "rate": "1",
+    "point_enabled": true,
+    "point_redumption_on_payment": {
+      "__typename": "Nothing",
+      "none": null
+    },
+    "point_redumption_on_charge": {
+      "__typename": "Rate",
+      "minimum_amount": 1,
+      "redumption_rate": 0.005,
+      "include_point_amount": false
+    },
+    "remittance_send_enabled": true,
+    "card_charge_enabled": true,
+    "card_charge_amount": {
+      "preset_amount_list": [
+        1000,
+        3000,
+        5000
+      ],
+      "arbitrary_amount_enabled": true,
+      "arbitrary_amount_minimum": 5000
+    },
+    "card_charge_require_identification": true,
+    "expiration_money": {
+      "__typename": "RelativeFromEachCharge",
+      "expires_in": {
+        "amount": 6,
+        "unit": "Month"
+      }
+    },
+    "expiration_point": {
+      "__typename": "RelativeFromEachCharge",
+      "expires_in": {
+        "amount": 2,
+        "unit": "Month"
+      }
+    },
+    "expiration_on_cancel_money": "RestoreRemaining",
+    "expiration_on_cancel_point": "RestoreRemaining",
+    "limitation_tx_payment": 1000000000,
+    "limitation_tx_charge": 50000,
+    "limitation_member_balance_money": 50000,
+    "limitation_member_balance_point": 1000000000,
+    "limitation_member_charge_total_money": {
+      "__typename": "TotalInPast",
+      "amount": "50000",
+      "in": {
+        "amount": 1,
+        "unit": "Day"
+      }
+    },
+    "limitation_member_charge_total_point": {
+      "__typename": "TotalInPast",
+      "amount": "100000",
+      "in": {
+        "amount": 1,
+        "unit": "Day"
+      }
+    },
+    "limitation_issue_total_money": {
+      "__typename": "NoLimit",
+      "none": null
+    },
+    "limitation_issue_total_point": {
+      "__typename": "NoLimit",
+      "none": null
+    },
+    "limitation_issue_total_money_by_card": {
+      "__typename": "NoLimit",
+      "none": null
+    },
+    "license_terms_of_use": {
+      "text": "",
+      "updated_at": "2022-06-09T18:05:54.656749511Z"
+    },
+    "license_privacy_policy": {
+      "text": "",
+      "updated_at": "2022-06-09T18:05:54.656778512Z"
+    },
+    "license_others": []
+  }
+}

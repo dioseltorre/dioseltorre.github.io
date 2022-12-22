@@ -1,0 +1,220 @@
+{
+  "pages": {
+    "continue": "Continue",
+    "done": "Done",
+    "start": "Start",
+    "welcome": "Welcome",
+    "skip": "Skip",
+    "next": "Next",
+    "error": "Error",
+    "start_with_pays_id": "START with pays ID",
+    "made_with_pokepay": "Made with Pokepay",
+    "team_name": "{name} Team",
+    "onboarding": {
+      "welcome": "Welcome to\n{money_name}",
+      "welcome_description": "This e-money belongs to {team_name}.\nLet’s start!",
+      "screen2": "Payment is easy.\nJust scan the QR code.",
+      "screen3": "Charge your balance using\ncredit card or cash",
+      "screen4": "Get the latest information on\nour store",
+      "guide_message": "Tap the card.\nQR code can be displayed."
+    },
+    "auth": {
+      "header_title": "Sign in",
+      "header_description": "Enter your Email Address",
+      "email_address": "Email Address",
+      "terms_policy": "I accept the {terms_conditions}\nand {privacy_policy}.",
+      "terms_conditions": "Terms and Conditions",
+      "privacy_policy": "Privacy Policy"
+    },
+    "input_code": {
+      "header_title": "Enter the authorization code.",
+      "header_description": "A verification code has been sent to {email} via email. Please enter the authorization code.",
+      "resend_code": "Resend code"
+    },
+    "registration": {
+      "header_title": "Register your member name",
+      "header_description": "This member name will be used for the Pokepay application.",
+      "name_hint": "Kaori Tanaka"
+    },
+    "registration_complete": {
+      "header_title": "Registration complete",
+      "header_description": "Welcome! {name} san.",
+      "start_pokepay": "Start Pokepay"
+    },
+    "not_found": {
+      "header_title": "Page not found",
+      "header_description": "The page you are looking is not available."
+    },
+    "frame_layout": {
+      "chargeable_amount": "Chargeable amount"
+    },
+    "add_to_homescreen": {
+      "add_to_homescreen": "Add to your home screen!",
+      "add_to_homescreen_desc": "Once added to the home screen, it can be\nopened quickly like an app.",
+      "left_text": "Tap",
+      "right_text": "then “Add to Home Screen”",
+      "recommendation": "Recommendation"
+    },
+    "recommend_browser": {
+      "open_chrome": "Open in Chrome",
+      "open_safari": "Open in Safari",
+      "open_chrome_desc": "We recommend opening the app in Chrome, as it may not work properly in some environments, such as in-app browsers.",
+      "open_safari_desc": "We recommend opening the app in Safari, as it may not work properly in some environments, such as in-app browsers.",
+      "ok": "OK"
+    },
+    "main": {
+      "cancel": "Cancel",
+      "dont_show_again": "Don’t show again",
+      "earned_point": "Earned {point} point",
+      "edit": "Edit",
+      "points": "Point",
+      "money": "Money",
+      "qr_code": "QR Code",
+      "scan": "Scan",
+      "balance_amount": "Balance {amount}",
+      "pay": "Pay",
+      "paste": "Paste",
+      "available_balance": "Available balance",
+      "consume_point_on_payment": "Consume point on payment",
+      "topup_message": "You can topup only money via credit card or cash.",
+      "register": "Register",
+      "save": "Save",
+      "home": {
+        "menu_title": "Home",
+        "check_expiration_date": "Check the {expiration_date}.",
+        "breakdown": "Breakdown",
+        "pay_with_this_code": "Pay with this code"
+      },
+      "transaction_history": {
+        "menu_title": "History",
+        "pay_to_shop": "Pay to {name}",
+        "charge_in_shop": "Charge in {name}",
+        "cancellation_process": "Cancellation process",
+        "cancelled_message": "This transaction is already cancelled.",
+        "transaction_history": "Transaction History",
+        "section_date_format": "E, MMM d y",
+        "time_format": "HH:mm",
+        "received_from_name": "Received from {userName}",
+        "sent_to_name": "Sent to {userName}",
+        "amount_of_charge": "Amount of charge",
+        "amount_of_payment": "Amount of payment",
+        "amount_of_money": "Amount of Money",
+        "amount_of_point": "Amount of Points",
+        "points_earned": "Points earned",
+        "show_breakdown": "Show Breakdown",
+        "cancellation_process_for_tx": "Cancellation process for this transaction",
+        "tx_canceled_by_process": "Transaction canceled by this process"
+      },
+      "expiration_list": {
+        "expiry_date": "Expiry date",
+        "available": "Available",
+        "expired": "Expired",
+        "expires_in": "Expires in {day} days",
+        "expiration_date": "Expiration : {date}",
+        "expired_on": "Expired {date}",
+        "date_format": "MMM dd, yyyy",
+        "wallet_information": "Wallet Information",
+        "some_balances_expire_in_week": "Some balances expire within a week",
+        "no_available_balance": "No Available Balance"
+      },
+      "account": {
+        "address": "Address",
+        "apply_changes": "Apply Changes",
+        "about_this_money": "About This Money",
+        "call_to_receive_code": "Call to receive code",
+        "change_profile_image": "Change Image",
+        "confirm_image_delete_title": "Are you sure want to delete?",
+        "confirm_image_delete_message": "This action cannot be undo.",
+        "confirm_logout_title": "Are you sure want to logout?",
+        "confirm_logout_message": "If you use this money again, Please re-login.",
+        "confirm_delete_account": "Are you sure you want to delete your account?",
+        "delete_account_with_balance": "If you delete your account, these balances will be deleted. Once deleted, these balances cannot be restored.",
+        "delete_account_no_balance": "If you delete your account, all information registered in your account will be deleted. Once deleted, the information cannot be restored.",
+        "delete_my_account": "Delete My Account",
+        "delete_image": "Delete Image",
+        "didnt_receive_email": "Didn’t receve an email?",
+        "didnt_receive_sms_code": "Didn’t receive a verification code after 30 secs?'",
+        "dont_delete_account": "Don't Delete and Back to Previous Screen",
+        "edit_profile": "Edit Profile",
+        "enter_verification_code": "Enter verification code",
+        "enter_code_to_continue": "We have sent you a verification code. Enter the code to continue.",
+        "enter_sms_code_to_continue": "We have sent you a verification code. Enter the code to continue.",
+        "join_pocket_change": "Join Pocket Change",
+        "license": "License",
+        "logout": "Logout",
+        "menu_title": "Account",
+        "money_name": "Money Name",
+        "name": "Name",
+        "open_mail": "Open Mail",
+        "other_settings": "Other Settings",
+        "phone_number": "Phone Number",
+        "provider": "Provider",
+        "resend_email": "Resend email",
+        "start_pokepay": "Start Pokepay",
+        "start_original_emoney": "Start an original e-money system for your own store",
+        "terms_of_use": "Terms of Use",
+        "there_is_unused_balance": "There is an unused balance",
+        "verification_code": "Verification code",
+        "app_version": "Version",
+        "we_are_looking_developer": "We are looking for developer to build Pokepay with!",
+        "your_registered_email": "Your registered email address\n{email}"
+      },
+      "payment": {
+        "payment": "Payment",
+        "use_points": "Use points",
+        "continue_payment": "Continue Payment",
+        "pay_with": "Pay with {name}",
+        "invalid_qr_msg_title": "This is not a payment QR code",
+        "invalid_qr_msg_text": "Please confirm the QR code is for payment",
+        "insufficient_balance": "Your balance is insufficient",
+        "please_recharge": "Please recharge",
+        "you_can_pay_charge_msg": "You can pay and charge with this QR code"
+      },
+      "transaction_complete": {
+        "charge_complete": "Charge complete in {name}",
+        "payment_complete": "Payment complete in {shop}",
+        "used_point": "Used {point}",
+        "show_detail": "Show Detail",
+        "transaction_id": "Transaction ID：{id}",
+        "transaction_date": "E, MMM d y H:mm"
+      },
+      "news": {
+        "menu_title": "News",
+        "feature_not_available": {
+          "title": "News feature isn’t available",
+          "description": "This feature will be added in our next update.\nPlease look forward to it!"
+        }
+      },
+      "charge": {
+        "add_card": "Add a card",
+        "card_identification": "Card Identification",
+        "card_name": "Card Name",
+        "card_number": "Card Number",
+        "charge": "Charge",
+        "charge_in": "Charge in {name}",
+        "cc_info_text": "In order to protect your credit card information, we ask you to set up \"Identity authentication service (3D Secure)\" by your credit card company.\n\nPlease contact your credit card company for details on how to set up this service.",
+        "change_card": "Change the Card",
+        "current": "Current",
+        "delete_card": "Delete this card",
+        "desired": "Desired",
+        "expiration_date": "Expiration Date",
+        "give_money_message": "Give money to the cashier\nand show QR code.",
+        "indication_message": "Indication based on the Act on Specified Commercial Transactions",
+        "input_the_amount": "Input the amount",
+        "pc_responsibility_message": "Pocket Change Co., Ltd. is responsible for sales regarding the recharge (purchase) of this money by credit card payment. Your credit card statement will show \"Electronic Money Charge (Pocket Change).\"",
+        "register_card": "Register a Card",
+        "register_id_auth_message": "You must register for the Identity authentication service (3D Secure) before using this application.",
+        "select_charge_method": "Select Charge Method",
+        "save_this_card": "Save this card",
+        "show_qr_code": "Show QR\nCode",
+        "use_card": "Card",
+        "what_is_identity_auth": "What is the Identity authentication service?",
+        "card_has_expired": "Card has expired",
+        "enter_valid_card_number": "Please enter a valid card number",
+        "enter_valid_month": "Please enter a valid month",
+        "enter_valid_year": "Please enter a valid year",
+        "enter_valid_cvc": "Please enter a valid CVC/CVV"
+      }
+    }
+  }
+}

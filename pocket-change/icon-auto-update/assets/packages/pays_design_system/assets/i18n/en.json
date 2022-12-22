@@ -1,0 +1,136 @@
+{
+  "close": "Close",
+  "components": {
+    "atoms": {
+      "button": {
+        "apply": "Apply",
+        "back": "Back",
+        "cancel": "Cancel",
+        "close": "Close",
+        "continue": "Continue",
+        "done": "Done",
+        "edit": "Edit",
+        "edit_columns": "Edit Columns",
+        "filters": "Filters",
+        "login": "Login",
+        "next": "Next",
+        "ok": "Ok",
+        "play": "Play",
+        "print": "Print",
+        "search": "Search",
+        "send": "Send",
+        "show": "Show",
+        "sorting": "Sorting"
+      }
+    },
+    "molecules": {
+      "calendar": {
+        "custom_range": "Custom Range",
+        "date_picker": {
+          "date_range_bar_title": "DATE RANGE",
+          "datefmt": "d MMM y",
+          "monthfmt": "MMMM y",
+          "select_date_range": "Select Date Range"
+        },
+        "dow_abbr": {
+          "fri": "F",
+          "mon": "M",
+          "sat": "S",
+          "sun": "S",
+          "thu": "T",
+          "tue": "T",
+          "wed": "W"
+        },
+        "last_month": "Last month",
+        "last_n_days": "Last {days} Days",
+        "last_year": "Last year",
+        "second_last_year": "2nd last year",
+        "select_date_range": "Select Date Range",
+        "this_month": "This month",
+        "this_year": "This year",
+        "today": "Today",
+        "yesterday": "Yesterday"
+      },
+      "color_picker": {
+        "color_code": "Color Code",
+        "filled": "Filled",
+        "linear": "Linear Gradient"
+      },
+      "search_popup": {
+        "filter": "Filter",
+        "history": "History",
+        "search": "Search"
+      },
+      "comment": {
+        "edited": "(edited)"
+      }
+    },
+    "templates": {
+      "preview": "Preview",
+      "step": {
+        "back": "BACK",
+        "next": "NEXT"
+      },
+      "navbar": {
+        "coming_soon": "Coming soon"
+      }
+    }
+  },
+  "login": {
+    "header": {
+      "title": "Login to pokepay"
+    },
+    "pages": {
+      "mail": {
+        "description": "Please input mail address to login.\nIf the organization code is wrong back to previous page",
+        "inputs": {
+          "mail": {
+            "caption": "Mail address",
+            "hintText": "Please input mail address"
+          }
+        },
+        "title": "Please input email address"
+      },
+      "org": {
+        "description": "Please input organization code",
+        "inputs": {
+          "org": {
+            "caption": "Organization code",
+            "hintText": "Please input organization code"
+          }
+        },
+        "title": "Please input organization code"
+      },
+      "password": {
+        "description": "Please input password.",
+        "inputs": {
+          "password": {
+            "caption": "Password",
+            "hintText": "Please input password"
+          }
+        },
+        "title": "Plase input passowd"
+      }
+    }
+  },
+  "transaction": {
+    "cancelling": "Cancelling",
+    "charge": "Charge",
+    "charge_cancel": "Charge Cancel",
+    "payment": "Payment",
+    "payment_cancel": "Payment Cancel",
+    "remit_receive": "Receive",
+    "remit_send": "Send"
+  },
+  "date_formats": {
+    "yMMd_HHmm": "y/MM/d HH:mm"
+  },
+  "fetch_result" : {
+    "no_data": "No Data",
+    "coming_soon": "Coming Soon",
+    "error" : "Error",
+    "new_feature_coming_soon": "A new feature will be coming soon!\nPlease wait a moment.",
+    "load_failed": "Load Failed",
+    "reload": "Reload"
+  }
+}
