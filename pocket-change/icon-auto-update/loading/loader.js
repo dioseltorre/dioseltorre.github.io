@@ -22,7 +22,7 @@ function getManifest(url, onSuccess, onFail, onError) {
 }
 
 function startLoadingIndicator() {
-  const url = window.location.origin + 'manifest.json';
+  const url = window.location.origin + '/' + window.location.pathname + '/manifest.json';
   console.log(url);
   getManifest(
     url,
