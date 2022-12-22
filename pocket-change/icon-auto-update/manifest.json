@@ -1,34 +1,34 @@
 {
-    "name": "money name",
-    "short_name": "money name",
+    "name": "money name new",
+    "short_name": "money name short",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#efefef",
-    "theme_color": "#efefef",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
     "description": "",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/icon?id=67050e4b-06fc-4849-99ff-954f49c79d64&width=192&height=192",
+            "src": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/icon?id=5b6924b8-c9e3-4fa9-867e-26f98492127a&width=192&height=192",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": null
         },
         {
-            "src": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/icon?id=67050e4b-06fc-4849-99ff-954f49c79d64&width=512&height=512",
+            "src": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/icon?id=5b6924b8-c9e3-4fa9-867e-26f98492127a&width=512&height=512",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": null
         },
         {
-            "src": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/icon?id=67050e4b-06fc-4849-99ff-954f49c79d64&width=192&height=192",
+            "src": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/icon?id=5b6924b8-c9e3-4fa9-867e-26f98492127a&width=192&height=192",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "maskable"
         },
         {
-            "src": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/icon?id=67050e4b-06fc-4849-99ff-954f49c79d64&width=512&height=512",
+            "src": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/icon?id=5b6924b8-c9e3-4fa9-867e-26f98492127a&width=512&height=512",
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable"
@@ -42,7 +42,7 @@
     "team_postal_code": null,
     "team_address": null,
     "artwork_url": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/artwork?id=6499af8c-2b14-4ef2-a854-0f9ac5bd5492",
-    "icon_url": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/icon?id=67050e4b-06fc-4849-99ff-954f49c79d64",
+    "icon_url": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/icon?id=5b6924b8-c9e3-4fa9-867e-26f98492127a",
     "cover_url": "https://m-oyzo9l761l0t.qa.pkpy.jp/media/img/cover?id=00000000-0000-0000-0000-000000000000",
     "money_config": {
         "state": "Trial",
@@ -54,7 +54,7 @@
                 "__typename": "Upload"
             },
             "icon": {
-                "id": "67050e4b-06fc-4849-99ff-954f49c79d64",
+                "id": "5b6924b8-c9e3-4fa9-867e-26f98492127a",
                 "__typename": "Upload"
             },
             "cover": {
