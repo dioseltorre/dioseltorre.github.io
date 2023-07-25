@@ -1,5 +1,5 @@
-importScripts("https://www.gstatic.com/firebasejs/9.10.0/firebase-app-compat.js");
-importScripts("https://www.gstatic.com/firebasejs/9.10.0/firebase-messaging-compat.js");
+importScripts("https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js");
+importScripts("https://www.gstatic.com/firebasejs/9.23.0/firebase-messaging-compat.js");
 
 firebase.initializeApp({
   apiKey: 'AIzaSyB7wZb2tO1-Fs6GbDADUSTs2Qs3w08Hovw',
@@ -8,7 +8,7 @@ firebase.initializeApp({
   projectId: 'flutterfire-e2e-tests',
   authDomain: 'flutterfire-e2e-tests.firebaseapp.com',
   databaseURL:
-      'https://flutterfire-e2e-tests-default-rtdb.europe-west1.firebasedatabase.app',
+    'https://flutterfire-e2e-tests-default-rtdb.europe-west1.firebasedatabase.app',
   storageBucket: 'flutterfire-e2e-tests.appspot.com',
   measurementId: 'G-JN95N1JV2E',
 });
