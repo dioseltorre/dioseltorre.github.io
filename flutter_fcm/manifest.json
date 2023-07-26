@@ -1,0 +1,35 @@
+{
+  "name": "Fcm test",
+  "short_name": "Fcm test",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#efefef",
+  "theme_color": "#222222",
+  "description": "Fcm test App",
+  "orientation": "portrait",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
